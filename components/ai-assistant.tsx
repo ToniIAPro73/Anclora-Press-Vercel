@@ -1,9 +1,9 @@
 "use client"
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ScrollArea } from "@/components/ui/scroll-area"
+import { Button } from "@/components/ui/forms/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/surfaces/card"
+import { ScrollArea } from "@/components/ui/layout/scroll-area"
 import { X, Sparkles, MessageSquare, CheckCircle, Lightbulb, PenTool, BookOpen } from "lucide-react"
 
 interface AIAssistantProps {

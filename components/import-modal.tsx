@@ -3,15 +3,15 @@
 import type React from "react"
 
 import { useState } from "react"
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Alert, AlertDescription } from "@/components/ui/alert"
-import { Badge } from "@/components/ui/badge"
-import { Progress } from "@/components/ui/progress"
-import { Checkbox } from "@/components/ui/checkbox"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/surfaces/dialog"
+import { Button } from "@/components/ui/forms/button"
+import { Input } from "@/components/ui/forms/input"
+import { Label } from "@/components/ui/forms/label"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/navigation/tabs"
+import { Alert, AlertDescription } from "@/components/ui/feedback/alert"
+import { Badge } from "@/components/ui/data-display/badge"
+import { Progress } from "@/components/ui/feedback/progress"
+import { Checkbox } from "@/components/ui/forms/checkbox"
 import {
   FileText,
   Upload,

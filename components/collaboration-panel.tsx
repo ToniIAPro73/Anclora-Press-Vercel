@@ -1,14 +1,14 @@
 "use client"
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Badge } from "@/components/ui/badge"
-import { Separator } from "@/components/ui/separator"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { Textarea } from "@/components/ui/textarea"
+import { Button } from "@/components/ui/forms/button"
+import { Input } from "@/components/ui/forms/input"
+import { Label } from "@/components/ui/forms/label"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/data-display/avatar"
+import { Badge } from "@/components/ui/data-display/badge"
+import { Separator } from "@/components/ui/layout/separator"
+import { ScrollArea } from "@/components/ui/layout/scroll-area"
+import { Textarea } from "@/components/ui/forms/textarea"
 import { X, Users, MessageCircle, Share2, Eye, Clock, CheckCircle } from "lucide-react"
 
 interface CollaborationPanelProps {

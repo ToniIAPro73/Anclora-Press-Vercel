@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { ScrollArea } from "@/components/ui/scroll-area"
+import { Button } from "@/components/ui/forms/button"
+import { ScrollArea } from "@/components/ui/layout/scroll-area"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
 import { Folder, FileText, Plus, ChevronRight, ChevronDown, BookOpen, Palette, Sparkles } from "lucide-react"

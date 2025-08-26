@@ -1,10 +1,10 @@
 "use client"
 
 import { useState, useRef } from "react"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Separator } from "@/components/ui/separator"
-import { ScrollArea } from "@/components/ui/scroll-area"
+import { Button } from "@/components/ui/forms/button"
+import { Badge } from "@/components/ui/data-display/badge"
+import { Separator } from "@/components/ui/layout/separator"
+import { ScrollArea } from "@/components/ui/layout/scroll-area"
 import {
   FileText,
   Sparkles,
